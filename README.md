@@ -1,4 +1,4 @@
-OKBQA_Task2
+[OKBQA_Task2](http://7.okbqa.org/hackathon/task/task2)
 =============
 Dialog Corpus and Evaluation
 -----------------
@@ -10,15 +10,15 @@ However, actual human-to-human conversations are not made by one-sided requests 
 
 
 
-## Task 2. Dialog Corpus and Evaluation aims to develop a conversational agent that can achieve the following goals:
+**Task 2. Dialog Corpus and Evaluation** aims to develop a conversational agent that can achieve the following goals:
 
-Conduct consistent conversations based on given knowledge
++ Conduct consistent conversations based on given knowledge
 
-Generate conversation that provides knowledge to its opponent based on given knowledge
++ Generate conversation that provides knowledge to its opponent based on given knowledge
 
-Generate conversation that find insufficient knowledge and acquire knowledge of the other.
++ Generate conversation that find insufficient knowledge and acquire knowledge of the other.
 
-Goals
+# Goals
 In order to build and evaluate conversation agents that achieve the above goals, it is necessary to have good learning data, sufficient evaluation methods, and implementation of a dialogue model based on them.
 
 In OKBQA Hackathon in 2018, Task 2. The Dialog Corpus and Evaluation aims to build and evaluate a conversation agent with the goal of sharing the following accomplishments, encouraging participants to participate in this task.
@@ -31,5 +31,11 @@ Evaluation metric
 
 Dialog model (baseline model)
 
-Conditions
+# Conditions
 There are no special restrictions on participating in this task.
+
+# Dataset
+Our dataset consists of free conversations between two people. The two people were asked to make conversation with given basic information about a soccer player differently to engage in free conversations. At this time, operators can utilize their existing knowledge as well as questions and answers using basic information to conduct various conversations. However, workers were instructed to prioritize contextual conversations rather than knowledge-based ones.
+Our dataset aims to model the way people interact with a subject (soccer player) by using the knowledge we know and questioning the knowledge we need within the context.
+
+The dataset consists of 646 utterances in over 295 dialogs. 
