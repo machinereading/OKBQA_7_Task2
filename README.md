@@ -8,8 +8,6 @@ Along with interest in AI research, researches and application development for A
 
 However, actual human-to-human conversations are not made by one-sided requests and responses. Instead, they get information from each other and are asked to re-request shortcomings of the other's request. For examples, when a student is taking a class with a teacher, it is a good idea to ask what you do not know. In addition, person-to-person conversations carry on a consistent conversation on a single topic. When you talk about a topic, you communicate with each other based on the knowledge you know, and if you do not know each other, you are asked to ask your opponent to get information.
 
-
-
 **Task 2. Dialog Corpus and Evaluation** aims to develop a conversational agent that can achieve the following goals:
 
 + Conduct consistent conversations based on given knowledge
@@ -51,8 +49,8 @@ Our dataset aims to model the way people interact with a subject (soccer player)
 8. partner's konwledge : (knowledge information)
 9. partner's konwledge : (knowledge information)
 10. partner's konwledge : (knowledge information)
-11. (partner's utterance)\t(your utterance)\t\t(utterance candidate)|(utterance candidate)|...|(utterance candidate)
-12. (partner's utterance)\t(your utterance)\t\t(utterance candidate)|(utterance candidate)|...|(utterance candidate)
+11. (partner's utterance)\t(your utterance)\t\t(candidate utterance)|(candidate utterance)|...|(candidate utterance)
+12. (partner's utterance)\t(your utterance)\t\t(candidate utterance)|(candidate utterance)|...|(candidate utterance)
 ```
 Here is a sample from the training dataset:
 ```
@@ -71,6 +69,5 @@ Here is a sample from the training dataset:
 ```
 
 # Evaluation
-We also use same evaluate method of [convai2](http://convai.io/) that focus on the standard dialogue task of predicting the next utterance given the dialogue history. We evaluate the task using three metrics: 
-
+We also use same evaluate method of [convai2](http://convai.io/) that focus on the standard dialogue task of predicting the next utterance given the dialogue history. We evaluate the task using three metrics: 1) perplexity 2) F1 score 3) hits@k
 
