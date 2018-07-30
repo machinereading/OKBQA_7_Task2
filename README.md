@@ -39,4 +39,16 @@ Our dataset consists of free conversations between two people. The two people we
 Our dataset aims to model the way people interact with a subject (soccer player) by using the knowledge we know and questioning the knowledge we need within the context.
 
 - The dataset consists of 646 utterances in over 295 dialogs. It is divided up into train, test and valid set at ratio of 7:2:1.
-- The dataset is based on [convai2](http://convai.io/), and follows its data format.
+- The dataset is based on [convai2](http://convai.io/), and follows its data format. We have 4 types datasets either with or without knowledge information. The details about dataset show as below.
+```
+1. your knowledge : (knowledge information)
+2. your konwledge : (knowledge information)
+3. your konwledge : (knowledge information)
+4. your konwledge : (knowledge information)
+5. your konwledge : (knowledge information)
+6. partner's konwledge : (knowledge information)
+7. partner's konwledge : (knowledge information)
+8. partner's konwledge : (knowledge information)
+9. partner's konwledge : (knowledge information)
+10. partner's konwledge : (knowledge information)
+11. (partner's utterance)\t(your utterance)\t\t(utterance candidate)|(utterance candidate)|...|(utterance candidate)
