@@ -56,21 +56,21 @@ Our dataset aims to model the way people interact with a subject (soccer player)
 ```
 Here is a sample from the training dataset:
 ```
-1 Your knowledge : David_Backham Position ?X
+1 Your knowledge : David_Backham Position ?x
 2 Your Knowledge : David_Beckham Club AC Milan
-3 your knowledge : David Beckham birthPlace ?X
+3 your knowledge : David Beckham birthPlace ?x
 4 your Knowledge : David_Beckham birthDate 1975-05-02
-5 your Knowledge : David_Beckham height?X
+5 your Knowledge : David_Beckham height ?x
 6 partner's knowledge : David_Backham position retirement
-7 partner's knowledge : David_Backham Club ?X
+7 partner's knowledge : David_Backham Club ?x
 8 partner's knowledge : David_Beckham birthPlace Rayton
-9 partner's knowledge : David_Beckham birthDate? x
+9 partner's knowledge : David_Beckham birthDate? ?x
 10 partner's knowledge : David_Backham height 185
 11 David Beckham is a bit old because he has been playing for quite some time, but he is still handsome.\tYes, since he were born on May 2, 1975, he must be over 40 years old, but he is very handsome. Last time he played for AC Milan, I remember watching the game. Is he still a player?\t\tI don't know if he played in the Korean league. He was mostly a player in Germany and played for Darmstadt. You look old. What is the date of Cha Bum-keun's birthday?|Oh, that's amazing. After I retired, I thought I would definitely join the French team. I'm surprised you're not from Belgium, not from home. Which team did this player play for?|Yes, he is. He joined Manchester United FC. He's short at 176 but with his good physique, he plays well anywhere in the offense midfielder, he retired?|Oh, you're really old.|I saw it while I was living in Kobe, and it was really tall. Do you know how tall he is?|That's right, you're seriously injured. As you said, Lee's patent, " I don't know, " is well-known for his macro shots. Do you play with 9 or 7 times since you are an ace?|Yes, I am sorry. He's an excellent striker. 22 reminds me of this player. Now that I'm old, I'm afraid next World Cup will be hard for you.|Yes, I don't know the exact place of birth, but I'm from Gyeonggi-do. I expected a lot when I went to WBA, but I wish I could do better.|Yes, since he were born on May 2, 1975, he must be over 40 years old, but he is very handsome. Last time he played for AC Milan, I remember watching the game. Is he still a player?
 12 He is retired now, but I do not know what he is doing. He'll go back to my hometown, Layton Stone, and stay quiet.\tBeckham is good at playing soccer, tall at 185, handsome, and I really envy you from his hometown to a peaceful life.\t\tYes, height was a small wing of 174 but famous for its excellent technology. I was born in Suwon City, Gyeonggi Province. I am an elementary school senior. Where do you coach now?|I'm not Sungkyunkwan University, but now I'm the director of Sungkyunkwan University. Seol Ki-hyeon He was a strong player in 187 and a player in Europe.|I always buy Philippine lamb when I play football games. Is this player also naturalized?|Yes, he was 193 scary, legendary defensive midfielder. He was originally Senegal, a naturalized player of France. Which team did this player play for?|Oh, I'm a retired player now, and I know he was famous for being a small but strong striker at 172 centimeters tall. I don't know which country you're from or which team you're from. He was born on November 3, 1979, and he is quite old. You were great when you were young. If you were Messi's hero, are you a striker?|No, he's from North Chungcheong Province. I know you went to Suwon because of your athletic career. Maradona is 167 cm tall.|Beckham is good at playing soccer, tall at 185, handsome, and I really envy you from his hometown to a peaceful life.
 ```
 
-#Evaluation
+# Evaluation
 We also use same evaluate method of [convai2](http://convai.io/) that focus on the standard dialogue task of predicting the next utterance given the dialogue history. We evaluate the task using three metrics: 
 
 
