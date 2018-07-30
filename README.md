@@ -38,4 +38,5 @@ There are no special restrictions on participating in this task.
 Our dataset consists of free conversations between two people. The two people were asked to make conversation with given basic information about a soccer player differently to engage in free conversations. At this time, operators can utilize their existing knowledge as well as questions and answers using basic information to conduct various conversations. However, workers were instructed to prioritize contextual conversations rather than knowledge-based ones.
 Our dataset aims to model the way people interact with a subject (soccer player) by using the knowledge we know and questioning the knowledge we need within the context.
 
-The dataset consists of 646 utterances in over 295 dialogs. 
+- The dataset consists of 646 utterances in over 295 dialogs. It is divided up into train, test and valid set at ratio of 7:2:1.
+- The dataset is based on [convai2](http://convai.io/), and follows its data format.
