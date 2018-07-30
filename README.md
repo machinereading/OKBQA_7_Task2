@@ -52,3 +52,8 @@ Our dataset aims to model the way people interact with a subject (soccer player)
 9. partner's konwledge : (knowledge information)
 10. partner's konwledge : (knowledge information)
 11. (partner's utterance)\t(your utterance)\t\t(utterance candidate)|(utterance candidate)|...|(utterance candidate)
+12. (partner's utterance)\t(your utterance)\t\t(utterance candidate)|(utterance candidate)|...|(utterance candidate)
+```
+Here is a sample from the training dataset:
+```
+```
