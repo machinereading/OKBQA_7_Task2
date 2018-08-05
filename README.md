@@ -29,6 +29,14 @@ Evaluation metric
 
 Dialog model (baseline model)
 
+# Task Organizers
+
+* Prof. Key-Sun Choi, [Semantic Web Research Center](http://semanticweb.kaist.ac.kr/), [KAIST](http://www.kaist.edu).
+* Younggyun Hahm, [Semantic Web Research Center](http://semanticweb.kaist.ac.kr/), [KAIST](http://www.kaist.edu).
+* Sangmin An, [Semantic Web Research Center](http://semanticweb.kaist.ac.kr/), [KAIST](http://www.kaist.edu).
+* Jiho Kim, [Semantic Web Research Center](http://semanticweb.kaist.ac.kr/), [KAIST](http://www.kaist.edu).
+* Minho Lee, [Semantic Web Research Center](http://semanticweb.kaist.ac.kr/), [KAIST](http://www.kaist.edu).
+
 # Conditions
 There are no special restrictions on participating in this task.
 
